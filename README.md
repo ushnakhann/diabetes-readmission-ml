@@ -81,6 +81,8 @@ After cleaning and preprocessing:
 
 ## Project Structure
 
+```text
+
 hospital-readmission-diabetes/
 
 ├── README.md
@@ -99,15 +101,17 @@ hospital-readmission-diabetes/
 
 │   └── hospital_readmission_prediction.py
 
-└──figures/
+└── figures/
 
-	├── model_comparison_auc.png
+    ├── model_comparison_auc.png
 
-	├── model_comparison_f1.png
+    ├── model_comparison_f1.png
 
-	├── correlation_matrix.png
+    ├── correlation_matrix.png
 
-	└── numeric_feature_distributions.png
+    └── numeric_feature_distributions.png
+
+```
 
 ## How to Run
 
