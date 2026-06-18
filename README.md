@@ -81,19 +81,77 @@ After cleaning and preprocessing:
 
 ## Project Structure
 
-project/
+hospital-readmission-diabetes/
+
+├── README.md
+
+├── requirements.txt
+
 ├── data/
+
+│   └── diabetic_data.csv
+
 ├── notebooks/
+
+│   └── hospital_readmission_prediction.ipynb
+
 ├── src/
-├── figures/
-└── README.md
 
-## Future Improvements
+│   └── hospital_readmission_prediction.py
 
-- XGBoost and LightGBM models
-- Hyperparameter optimization
-- Explainability with SHAP
-- Deployment as a web application
+└──figures/
+
+	├── model_comparison_auc.png
+
+	├── model_comparison_f1.png
+
+	├── correlation_matrix.png
+
+	└── numeric_feature_distributions.png
+
+## How to Run
+
+### 1. Clone the Repository
+
+```bash
+
+git clone git@github.com:YOUR-USERNAME/hospital-readmission-diabetes.git
+
+cd hospital-readmission-diabetes
+
+```
+
+### 2. Install Dependencies
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+### 3. Launch Jupyter Notebook
+
+```bash
+
+jupyter notebook
+
+```
+
+Open:
+
+```text
+
+notebooks/hospital_readmission_prediction.ipynb
+
+```
+
+### 4. Dataset
+
+The dataset (`diabetic_data.csv`) is included in the `data/` folder, so no additional downloads are required.
+
+### 5. Reproduce Results
+
+Run the notebook cells from top to bottom
 
 ## Author
 
